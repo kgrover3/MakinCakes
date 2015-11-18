@@ -1,0 +1,87 @@
+
+/*Ken Grover, 4/19/2013*/
+
+body	{font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 14pt;
+		background-image:url('background.jpg');}
+		
+.content	{
+			margin: 15px 15px 15px 15px;
+			font-size: 14pt;
+			padding: 15px 15px 15px 15px;}
+		
+.menu	{float: left;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		border: none;}	
+		
+.mark	{Font-size: 25pt;
+		position: absolute;
+		top: 12px;
+		left: 1110px;}
+		
+.align-right	{float: right;
+				margin-left: 10px;
+				margin-right: 10px;}
+				
+.align-left		{float: left;
+				margin-left: 0px;
+				margin-right: 10px;}
+				
+a img {border:none}
+
+table	{width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		border-color: #257C9A;
+		border-style: ridge;
+		border-width: 10px;}
+		
+	.flavor	{text-align: center;
+			background-color: #CAFFFF;}
+
+th		{color: white;
+		background-color: #257C9A;}
+		
+tr.stripe	{background-color: #94FFFF;}
+
+td.bolder	{font-weight: bold;}
+
+
+caption	{caption-side: bottom;
+		font-size: small;}
+		
+legend	{float: left;
+		color: #257c9a;
+		font-style: italic;
+		font-size: small;}
+		
+#main	{margin: 10px auto;
+		width: 1000px;
+		height: auto;
+		border-style: double;
+		border-color: #257C9A;
+		border-width: 10px;
+		border-radius: 13px 13px 13px 13px;
+		background: #FBFBFB;
+		padding-bottom: 5px;}
+		
+footer	{text-align: center;
+		font-size: 10pt;
+		margin: 25px auto 5px auto;
+		width: 1000px;
+		height: 10px;
+		border-style: double;
+		border-color: #257C9A;
+		border-width: 5px;
+		border-radius: 13px 13px 13px 13px;
+		background: #FBFBFB;
+		padding-bottom: 30px;}
+		
+img.small	{text-decoration: none;}
+
+div#sizes a img.large	{height: 0; width: 0; border-width: 0;}
+
+div#sizes a:hover img.large	{position: fixed; right: 33%; top: 250px; z-index: 100;
+							height: auto; width: auto;}

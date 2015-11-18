@@ -1,0 +1,1 @@
+function modified()	{document.write(document.lastModified);}
